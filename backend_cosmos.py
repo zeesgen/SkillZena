@@ -852,8 +852,8 @@ def clean_data_for_json(data):
 
 @app.get("/rolebased-retrieve-data/")
 async def retrieve_data(skill_type: str):
-    if skill_type not in skills:
-        return {"error": "Invalid skill type"}
+    #if skill_type not in skills:
+        #return {"error": "Invalid skill type"}
     
     collection = db[f"{skill_type}_role"]
     data = await collection.find().to_list(length=100)  # Limit the results
