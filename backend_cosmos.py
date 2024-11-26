@@ -28,10 +28,10 @@ from langchain_mongodb.vectorstores import MongoDBAtlasVectorSearch
 from langchain_community.vectorstores.azure_cosmos_db import AzureCosmosDBVectorSearch
 
 from langchain_core.documents import Document
-from bson import ObjectId
+#from bson import ObjectId
 from openai import AzureOpenAI
 from langchain_openai import AzureOpenAIEmbeddings
-from bson import ObjectId  # Import ObjectId from bson
+#from bson import ObjectId  # Import ObjectId from bson
 import urllib 
 import math
 
