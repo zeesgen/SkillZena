@@ -1,5 +1,7 @@
-#Python 3.10.15
+# Python 3.10.15
 fastapi==0.115.2
+uvicorn==0.32.0
+# Web framework for building the API
 pymongo==4.9.2
 motor==3.6.0
 langchain-openai==0.2.3
